@@ -85,7 +85,7 @@ class TVShows extends React.Component {
                       />
                     </a>
                   </Col> */
-                  <SingleMovie key={movie.imdbID} id={movie.imdbID} title={movie.title} plot={movie.Plot} image={movie.Poster}/>
+                  <SingleMovie key={movie.imdbID} id={movie.imdbID} image={movie.Poster}/>
                 
                 ))}
               </Row>
