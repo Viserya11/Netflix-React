@@ -1,9 +1,7 @@
-import { Alert } from 'react-bootstrap'
+import { Alert } from "react-bootstrap";
 
 const Error = () => {
-    return  <Alert variant='danger'>
-    No movies found
-  </Alert>
-}
+  return <Alert variant="danger">No movies found</Alert>;
+};
 
-export default Error
+export default Error;

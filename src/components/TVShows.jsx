@@ -59,7 +59,7 @@ class TVShows extends React.Component {
             <Carousel.Item>
               <Row className="row">
                 {this.state.movies.slice(0, 6).map((movie) => (
-                 /*  <Col md={2}>
+                  /*  <Col md={2}>
                     <a href="#">
                       <img
                         className="poster"
@@ -68,7 +68,13 @@ class TVShows extends React.Component {
                       />
                     </a>
                   </Col> */
-                  <SingleMovie key={movie.imdbID} id={movie.imdbID} title={movie.title} plot={movie.Plot} image={movie.Poster}/>
+                  <SingleMovie
+                    key={movie.imdbID}
+                    id={movie.imdbID}
+                    title={movie.title}
+                    plot={movie.Plot}
+                    image={movie.Poster}
+                  />
                 ))}
               </Row>
             </Carousel.Item>
@@ -85,8 +91,13 @@ class TVShows extends React.Component {
                       />
                     </a>
                   </Col> */
-                  <SingleMovie key={movie.imdbID} id={movie.imdbID} title={movie.title} plot={movie.Plot} image={movie.Poster}/>
-                
+                  <SingleMovie
+                    key={movie.imdbID}
+                    id={movie.imdbID}
+                    title={movie.title}
+                    plot={movie.Plot}
+                    image={movie.Poster}
+                  />
                 ))}
               </Row>
             </Carousel.Item>

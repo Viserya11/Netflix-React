@@ -1,9 +1,9 @@
 const NotFound = () => {
-    return(
-        <div className="bg-black">
-            <p className="notfound">Page note found</p>
-        </div>
-    )
-}
+  return (
+    <div className="bg-black">
+      <p className="notfound">Page note found</p>
+    </div>
+  );
+};
 
-export default NotFound
+export default NotFound;

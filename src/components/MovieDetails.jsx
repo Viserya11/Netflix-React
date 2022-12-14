@@ -23,11 +23,10 @@ const MovieDetails = () => {
     <>
       <div className="main">
         <div className="text-center">
-        <img  src={MovieDetails.Poster} />
-        <h3>{MovieDetails.Title}</h3>
-        <p>{MovieDetails.Plot}</p>
+          <img src={MovieDetails.Poster} />
+          <h3>{MovieDetails.Title}</h3>
+          <p>{MovieDetails.Plot}</p>
         </div>
-       
       </div>
     </>
   );
