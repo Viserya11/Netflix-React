@@ -13,7 +13,7 @@ class TVShows extends React.Component {
   async getMovies() {
     try {
       const response = await fetch(
-        "http://www.omdbapi.com/?apikey=2ba0b717&s=matrix"
+        "https://www.omdbapi.com/?apikey=2ba0b717&s=matrix"
       );
       if (response.ok) {
         const data = await response.json();
