@@ -89,15 +89,7 @@ render() {
                
                     
                           
-                                <Col md={2}>
-                                 
-                                    <a href="#">
-                                        <img className="poster" alt="movie cover" src={movie.Poster} />
-                                    </a>
-                                    
-                                    
-
-                                </Col>
+              <SingleMovie key={movie.imdbID} id={movie.imdbID} title={movie.title} plot={movie.Plot} image={movie.Poster}/>
 
                                 
                             
