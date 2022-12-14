@@ -1,0 +1,169 @@
+body {
+ 
+}
+
+.App {
+  text-align: center;
+  background-color: #0b0b0b;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.btn{
+  border-radius:0;
+}
+
+
+
+#logo{
+  height:48px;
+}
+
+#avatar{
+  height:36px;
+}
+#avatar-small{
+  height:24px;
+  margin-right:10px;
+}
+.dropdown-menu {
+  margin-left:-100px;
+  background-color: var(--home-bg-color);
+}
+
+.icon{
+  margin:4px 10px;
+}
+
+.dropdown-menu  a{
+ font-size:12px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.genre-details{
+  padding:1em;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.genre-button{
+  margin-left:4em;
+}
+
+
+
+
+ #title {
+  color: aliceblue;
+  padding: 0;
+  margin-top: 0;
+  font-size: 1.5em;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  background-color: #0b0b0b;
+}
+
+.main {
+  background-color: #0b0b0b;
+  height: 100%;
+  color: aliceblue;
+}
+
+.poster {
+  margin-top: 0;
+  max-height: 350px;
+}
+
+
+.logo {
+  margin: 0;
+  width: 100px;
+}
+
+#navbar {
+  background-color: #0b0b0b;
+  color: aliceblue;
+  padding: 0.5em;
+  display: flex;
+  font-size: 1em;
+}
+
+#navbar a {
+  margin-left: 0;
+  color: aliceblue;
+}
+
+.navcontainer {
+  color: white;
+}
+
+.navbar-nav {
+  margin-right: 60%;
+}
+
+.carousel {
+  width: 98%;
+  margin: 0 auto;
+}
+
+#profilelogo {
+  width: 10px;
+}
+
+.bg-black {
+  margin-top: 0;
+  background-color: #0b0b0b;
+  height: 90vh;
+  color: aliceblue;
+  
+}
+
+.notfound {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
+  font-size: 2em;
+}
+
+.singleposter {
+  margin: 0 auto;
+}
+
+.plot {
+  max-width: 200px;
+}
