@@ -8,7 +8,7 @@ const MovieDetails = () => {
 
   async function fetchMovies() {
     const response = await fetch(
-      `http://www.omdbapi.com/?apikey=2ba0b717&i=${params.id}`
+      `https://www.omdbapi.com/?apikey=2ba0b717&i=${params.id}`
     );
     const data = await response.json();
     console.log(data);
